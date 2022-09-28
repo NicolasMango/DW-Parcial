@@ -1,0 +1,52 @@
+
+
+body {
+    font-family: Montserrat;
+    margin: 0%;
+    
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    
+}
+
+header p{
+    font-size: 120px;
+    color: white;
+   font-weight: bolder;
+   text-align: center;
+   margin-bottom: 2px;
+}
+
+header h1{
+font-size: 60px;
+color: white;
+font-weight: bolder;
+text-align: center;
+margin-top: 2px;
+}
+header{
+    background-image: url(../imagenes/caja1.jpg);
+    background-blend-mode: darken;
+    background-repeat:round;
+    /*width: 1140px;*/
+
+}
+header div{
+    /*border-style: solid;
+    border-color: white;
+    border-width: 15px;   */
+}
