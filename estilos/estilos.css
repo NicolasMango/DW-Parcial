@@ -50,3 +50,38 @@ header div{
     border-color: white;
     border-width: 15px;   */
 }
+
+#quienessomos {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;
+}
+
+#quienessomos h2 {
+    font-size: 50px;
+    margin-top: 20%;
+    text-align: center;
+    margin-right: 30%;
+}
+#quienessomos p{
+    margin: 0 20% 0 20%;
+    font-size: 30px;
+}
+
+#galeria {
+    background: rgb(236,254,12);
+    background: linear-gradient(90deg, rgba(236,254,12,1) 11%, rgba(255,121,17,1) 81%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#galeria ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#galeria li{
+    padding-right: 20px;
+    list-style: none;
+}
